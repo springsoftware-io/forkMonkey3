@@ -64,8 +64,10 @@ Fork it: 👶 Child inherits 50% parent DNA + 50% random + daily mutations
 
 ## Quick Start
 
-### 1. Fork This Repo
-Click "Fork" to create your own monkey!
+### 1. Use This Template
+Click **"Use this template"** → **"Create a new repository"** to create your own monkey!
+
+> **Why template?** Actions work immediately! Forks require manual enablement.
 
 ### 2. Set Up Secrets
 Go to Settings → Secrets and variables → Actions → New repository secret:
@@ -156,7 +158,7 @@ forkMonkey/
 │   └── workflows/
 │       ├── daily-evolution.yml    # Daily AI evolution
 │       ├── deploy-pages.yml       # Deploy to GitHub Pages
-│       └── on-fork.yml            # Initialize child monkey
+│       └── on-create.yml          # Initialize new monkey (template/fork)
 ├── src/
 │   ├── genetics.py                # DNA and trait system
 │   ├── evolution.py               # AI-powered evolution

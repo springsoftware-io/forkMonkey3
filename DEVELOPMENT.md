@@ -312,8 +312,9 @@ Auto-provided by GitHub Actions:
    - DNA stored locally instead of secrets
    - Still secure as repo is private by default
 
-2. Fork event may not trigger immediately
-   - Use manual workflow dispatch if needed
+2. Fork vs Template behavior
+   - **Template** (recommended): Actions work immediately
+   - **Fork**: User must manually enable Actions first
 
 3. AI evolution requires API key
    - Falls back to random evolution gracefully

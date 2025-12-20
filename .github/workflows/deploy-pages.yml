@@ -12,7 +12,7 @@ on:
   
   # Also trigger after daily evolution completes
   workflow_run:
-    workflows: ["Daily Evolution", "Initialize Forked Monkey"]
+    workflows: ["Daily Evolution", "Initialize New Monkey"]
     types:
       - completed
     branches:
